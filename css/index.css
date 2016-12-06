@@ -1,0 +1,30 @@
+.board {
+    border: 2px solid blue;
+    padding: 10px;
+    display: flex;
+}
+
+.list-container {
+    width: 160px;
+    border: 1px solid red;
+    padding: 10px;
+    display: inline-block;
+}
+.card {
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.list {
+    width: 122px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+label, input, button {
+  display: block;
+}
