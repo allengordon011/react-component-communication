@@ -7,11 +7,12 @@ export default function Username(props) {
   }
   return (
     <form onSubmit={onFormSubmit}>
+
       <label>Username:</label>
-      <input onChange={props.onUsernameChange} type="text" required/>
+      <input onChange={props.onUsernameChange} type="text" />
 
       <label>Password:</label>
-      <input onChange={props.onPasswordChange} type="password" required/>
+      <input onChange={props.onPasswordChange} type="password" />
 
       <button type="submit">Add</button>
     </form>
